@@ -1,0 +1,41 @@
+$ git version
+$ cd /c/GitDemo
+$ git config --global user.name "ujwal thakre"
+$ git config --global user.email "ujwal_thakre@persis
+$ git config user.name
+ujwal thakre
+
+$ git config --list
+$ git init
+
+$ git add File1.txt
+
+$ git status
+
+$ git commit -m "New File1 is created"
+
+ git add .
+Administrator@JAVA MINGW64 /c/GitDemo (master)
+$ git log
+
+$ git log --oneline
+05f2ed0 chnage to file1
+97e941f change in file1
+258ac33 New File1 is created
+
+$ git log --oneline -2
+05f2ed0 chnage to file1
+97e941f change in file1
+
+$ git log --since=1-o2-2018
+$ git log --since=1-o1-2018
+$ git log --until=1-01-2018 --oneline
+$ git log --grep="chnage1"
+$ git log --help
+
+
+$ git add .
+
+
+
+
