@@ -39,8 +39,17 @@ git revert
 git reset
 
 -----------------------------------------------------------------------Day -02.
+Reset is not supposed to use for undo
+It can do permanent undo 
 
+Revert -safe way to undo the changes.It doesn't delete the chnages.
 
+Branching-
+git branch
+git branch bug123
+ git checkout bug123git
+
+D-delete the branch forcefully.without making any commit
 
 
 
